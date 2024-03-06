@@ -1,0 +1,33 @@
+h1{
+    font-weight: 800;
+    font-size: 25px;
+    color: hsl(0, 0%, 7%);
+    margin-bottom: 0;
+    cursor: pointer;
+}
+h1:hover{
+    color: hsl(47, 88%, 63%);
+}
+.description{
+    color: hsl(0, 0%, 50%);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.profile-picture{
+    width: 40px;
+}
+.username{
+    margin-left: 15px;  
+    font-weight: 800;  
+}
+article{
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 375px){
+    h1{
+        font-size: 23px;
+    }
+
+}
